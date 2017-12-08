@@ -127,6 +127,7 @@ a{
   display: flex;
   justify-content: flex-start;
   margin-bottom: 5rem;
+  padding-left: 5rem;
 
 }
 
@@ -140,4 +141,23 @@ a{
   padding: 0.5rem 1.25rem;
   width: 10rem;
   margin-bottom: 1rem;
+}
+
+
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  background-color: azure;
+}
+.footer img{
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
 }
