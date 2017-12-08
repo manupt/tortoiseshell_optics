@@ -1,6 +1,6 @@
-div, span, p, a, nav, footer{
+/*div, span, p, a, nav, footer{
   border: 1px solid black;
-}
+}*/
 
 html, body{
   height: 100%;
@@ -13,10 +13,59 @@ html, body{
   height: 31rem;
   background-image: url("../images/background.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
+.container{
+  width: 53.33rem;
+}
 .tab{
+  width: 100%;
+  margin-top: 1rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.tab span{
+  margin: 1rem 2rem 1rem 0rem;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.tab img{
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.box{
+  width: 57.33rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+  max-height: 4.2rem;
+}
+
+.box p{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
 }
