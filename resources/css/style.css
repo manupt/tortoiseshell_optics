@@ -1,0 +1,22 @@
+div, span, p, a, nav, footer{
+  border: 1px solid black;
+}
+
+html, body{
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+
+/*TOP*/
+.top{
+  height: 31rem;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.tab{
+  display: flex;
+}
